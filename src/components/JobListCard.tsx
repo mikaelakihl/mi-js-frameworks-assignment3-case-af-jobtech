@@ -10,7 +10,7 @@ import {
   DigiLayoutBlock,
   DigiTypography,
 } from '@digi/arbetsformedlingen-react'
-import type { IJob } from './JobList'
+import type { IJob } from '../models/IJob'
 import { Link } from 'react-router'
 import { useSavedJobs } from '../contexts/useSavedJobs'
 
